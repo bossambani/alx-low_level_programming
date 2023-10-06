@@ -1,11 +1,11 @@
-#include<stdio.h>
-
+#include <stdio.h>
+/**
+ * main - using printf function
+ *
+ * Return: Always 0 (Success)
+ */
 int main()
 {
-	/**using printf function
-	 * instead of puts
-	 */
-	printf("with proper grammar, but the outcome is a piece of art,");
-	return(0);
-
+printf("with proper grammar, but the outcome is a piece of art,");
+return(0);
 }
