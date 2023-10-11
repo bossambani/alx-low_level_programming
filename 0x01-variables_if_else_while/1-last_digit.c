@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - random numbers assignment
+ * main - program to produce random nums
  * Return: 0
  */
 int main(void)
