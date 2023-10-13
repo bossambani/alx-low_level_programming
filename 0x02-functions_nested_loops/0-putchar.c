@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main - program to print _putchar
  * Return: 0
