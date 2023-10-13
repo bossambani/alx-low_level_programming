@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main - program to print _putchar
  * Return: 0
  */
 int main(void)
 {
-char _putchar = "_putchar";
-int i;
-for (i = 0; i < strlen(_putchar); i++)
-{
-putchar(_putchar[i]);
-}
-return (0);
+	char putchar[] = "_putchar";
+	int i = 0;
+
+	while (_putchar[i] != '\0')
+	{
+		putchar(_putchar[i]);
+		i++;
+	}
+	putchar('\n');
+
+	return (0);
 }
