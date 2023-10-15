@@ -7,7 +7,7 @@
 int main(void)
 {
 	char *f_putchar = "_putchar\n";
-	int i = 0;
+	counter i = 0;
 
 	for (i = 0 ; i < strlen(func_putchar) ; i++)
 	{
