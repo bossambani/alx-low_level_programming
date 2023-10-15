@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char *f_putchar = "_putchar\n";
-	counter i = 0;
+	char *func_putchar = "_putchar\n";
+	size_t i = 0;
 
 	for (i = 0 ; i < strlen(func_putchar) ; i++)
 	{
