@@ -1,16 +1,28 @@
 #include <stdio.h>
-#include <string.h>
 /**
- * main - A program to print alphabets
+ * main - main block
+ * Description: Use `putchar` to print lowercase and then uppercase alphabet.
  * Return: 0
  */
 int main(void)
 {
-char *alphabets = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-size_t i;
-for (i = 0; i < strlen(alphabets); i++)
-{
-putchar(alphabets[i]);
-}
-return (0);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
+
+	return (0);
 }
