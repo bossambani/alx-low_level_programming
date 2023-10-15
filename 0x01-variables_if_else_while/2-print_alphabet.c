@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char *alphabets = "abcdefghijklmnopqrstuvwxyz\n";
-size_t i;
-for (i = 0; i < strlen(alphabets); i++)
+char alphabet = "abcdefghijklmnopqrstuvwxyz\n";
+int i;
+for (i = 0; i < strlen(alphabet); i++)
 {
-putchar(alphabets[i]);
+putchar(alphabet[i]);
 }
 return (0);
 }
