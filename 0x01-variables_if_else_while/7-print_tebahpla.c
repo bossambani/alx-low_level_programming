@@ -1,14 +1,18 @@
 #include <stdio.h>
-/** a program that prints alphabets in reversal form
-*return 0;
-*/
-int main (void)
+/**
+ * main - main block
+ * Description: Print the alphabet in reverse order in lowercase.
+ * Return: 0
+ */
+int main(void)
 {
-  char c;
-  for (c = 'z'; c < 'a'; c--)
-    {
-    putchar(c);
-  }
-  putchar('/n');
-  return (0);
+	char c;
+
+	for (c = 'z'; c >= 'a'; c--)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+
+	return (0);
 }
