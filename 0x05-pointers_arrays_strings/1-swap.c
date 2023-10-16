@@ -2,12 +2,15 @@
 
 /**
  * 1-swap.c - program to work on(swpping variable values)
- * @ a and b : variables to be used
+ * @a: variables to be used
+ * @b: Variable to be used
  * Return: Always (0).
  */
 void swap_int(int *a, int *b)
 {
-	int temp = *a;
+	int temp;
+
+	temp = *a;
 	*a = *b;
-	*b = *a;
+	*b = *temp;
 }
