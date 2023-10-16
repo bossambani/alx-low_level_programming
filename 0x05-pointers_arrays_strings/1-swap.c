@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 1-swap.c - program to work on(swpping variable values)
+ * swap_int - program to work on(swpping variable values)
  * @a: variables to be used
  * @b: Variable to be used
  * Return: Always (0).
