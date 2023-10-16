@@ -3,8 +3,7 @@
 #include <stdio.h>
 /**
  *print_rev - print a string in reverse
- *@str: variable used in the program
- *@s: function parameter
+  *@s: function parameter
  *Return: Always (0).
  */
 void print_rev(char *s)
