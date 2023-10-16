@@ -1,20 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 /**
- * main - program to print _putchar
+ * main - A program that prints _putchar
  * Return: 0
  */
 int main(void)
 {
-	char putchar[] = "_putchar";
-	int i = 0;
+	char *func_putchar = "_putchar\n";
+	size_t i = 0;
 
-	while (_putchar[i] != '\0')
+	for (i = 0 ; i < strlen(func_putchar) ; i++)
 	{
-		putchar(_putchar[i]);
-		i++;
+		putchar(func_putchar[i]);
 	}
-	putchar('\n');
-
 	return (0);
 }
