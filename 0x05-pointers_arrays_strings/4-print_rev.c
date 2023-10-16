@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- *print_rev -prints a string in reverse order
+ *print_rev - print a string in reverse
  *@str: variable used in the program
  *@s: function parameter
  *Return: Always (0).
