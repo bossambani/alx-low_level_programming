@@ -9,14 +9,13 @@
  */
 void rev_string(char *s)
 {
- int length = strlen(str);
+ int length = strlen(s);
  int i, j;
  char temp;
 
 for (i = 0, j = length - 1; i < j; i++, j--) {
-// Swap characters at position i and j.
-temp = str[i];
-str[i] = str[j];
-str[j] = temp;
+temp = s[i];
+s[i] = s[j];
+s[j] = temp;
     }
 }
