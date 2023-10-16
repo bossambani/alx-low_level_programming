@@ -2,9 +2,8 @@
 #include <string.h>
 
 /**
- * _strlen - my function name
- * @*str: variable name
- * @len: variale name
+ * _strlen - function for cheking the length of a string
+ * @s: My pointer variable
  * Return: Always (0).
  */
 int _strlen(char *s)
