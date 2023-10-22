@@ -3,12 +3,9 @@
  *mul - funtion that multiplies two numbers
  *@a: input variable
  *@b: input variable
- *
+ *return (a*b).
  */
 int mul(int a, int b)
 {
-	int result;
-	int result = a*b;
-
-	return (result);
+return (a * b);
 }
