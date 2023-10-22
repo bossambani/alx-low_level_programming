@@ -2,7 +2,7 @@
 /**
  *print_numbers -functions that prints values less than 10
  *@i: variable
- *Return: value less than 10.
+ *Return: 0.
  */
 
 void print_numbers(void)
