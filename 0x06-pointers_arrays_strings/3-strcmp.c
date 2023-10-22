@@ -1,27 +1,21 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- *_strcmp - integer function that compare two srrings
- *@s1: input pointer
- *@s2: another input pointer
- *return: 1 if not equal otherwise return 0
- *
- *
- */
-
+* _strcmp - Compares two strings
+* @s1: input
+* @s2: input
+* Return: dest
+*/
 int _strcmp(char *s1, char *s2)
 {
-size_t i,j;
-for (i = 0; i < strlen (s1); i++)
+int i = 0;
+
+while (s1[i] != '\0' && s2[i] != '\0')
 {
-for (j = 0; j < strlen (s2); j++)
+if (s1[i] != s2[i])
 {
-while (s1[i] != s2[i])
-{
-return (1);
+return (s1[i] - s2[i]);
+}
+i++;
 }
 return (0);
-}
-}
 }
