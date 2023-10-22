@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strncat - Function for concatenating the strings
+ *_strncat - Function for concatenating two strings
  *@dest: variable pointer
  *@src: variable pointer
  *@int n: bytes to be concatenated
- *Return: result.
+ *Return: dest.
  */
 
 char *_strncat(char *dest, char *src, int n)
