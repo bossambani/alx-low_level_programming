@@ -3,7 +3,7 @@
  *mul - funtion that multiplies two numbers
  *@a: input variable
  *@b: input variable
- *return (a*b).
+ *Return: product of variable a and b.
  */
 int mul(int a, int b)
 {
