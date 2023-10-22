@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
- *
- *
+ *print_numbers -functions that prints values less than 10
+ *@i: variable
+ *Return: value less than 10.
  */
 
 void print_numbers(void)
@@ -14,6 +12,6 @@ void print_numbers(void)
 	{
 		_putchar(i + '0');
 	}
-	_putchar('\n'
+	_putchar('\n')
 }
 
