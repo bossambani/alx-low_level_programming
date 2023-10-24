@@ -3,17 +3,16 @@
  * print_numbers - Prints numbers less than 10
  * Return: 0
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-		if (i != 2 && i != 4)
-		{
-		_putchar(i + '0');
-		}
-	}
-	_putchar('\n');
+int i;
+i = 0;
+while (i < 10)
+{
+if (i != 2 && i != 4)
+_putchar(i + '0');
+i++;
+}
+_putchar('\n');
 }
 
