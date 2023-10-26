@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_put_recursion - recursive function for printing out a string
+ *_puts_recursion - recursive function for printing out a string
  *@s: pointer to a string
  *Return: 0
  */
