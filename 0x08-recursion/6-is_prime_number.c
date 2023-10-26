@@ -1,4 +1,6 @@
 #include "main.h"
+
+int prime_calculation(int n, int i);
 /**
  *is_prime_number - function to compute prime number
  *@n: integer to be used
@@ -17,7 +19,7 @@ return (prime_calculation(n, n - 1));
  *@i: iteration variable
  *
  */
-int prime_calculation(int n,int i)
+int prime_calculation(int n, int i)
 {
 if (i == 1)
 return (1);
