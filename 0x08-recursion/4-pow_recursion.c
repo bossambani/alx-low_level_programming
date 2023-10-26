@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_pow_recursiion - function to get the power of integers
+ *_pow_recursion - function to get the power of integers
  *@y: power of a variable
  *@x: variable to get power
  *Return: power of a value
