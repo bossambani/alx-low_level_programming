@@ -8,9 +8,7 @@ int sqrt_calculation(int n, int i);
 
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-        return (-1);
-	return  sqrt_calculation((n, 0));
+	return (sqrt_calculation(n, 1));
 }
 
 /**
@@ -22,16 +20,14 @@ int _sqrt_recursion(int n)
  */
 int sqrt_calculation(int n, int i)
 {
-int sq;
-sq = i * i;
-if (sq == n)
-{
-return (i);
-}
-if (sq < n)
-{
-return (sqrt_calculation(n, i+1));
-}
-return (-1);
+	int square;
+
+	square = i * i;
+	if (square == n)
+		return (i);
+	else if (square < n)
+		return (sqrt_calculation(n, i + 1));
+	else
+		return (-1);
 }
 
