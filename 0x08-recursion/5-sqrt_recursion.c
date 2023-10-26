@@ -12,8 +12,8 @@ int _sqrt_recursion(int n)
 }
 
 /**
- *sqrt_calculation - sub-function 
- *@m: variable for comparison
+ *sqrt_calculation - sub-function
+ *@n: variable for comparison
  *@i: comparison variable
  *Return: square root of a number
  *
