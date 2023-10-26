@@ -3,8 +3,6 @@
  *_put_recursion - recursive function for printing out a string
  *@s: pointer to a string
  *Return: 0
- *
- *
  */
 void _puts_recursion(char *s)
 {
