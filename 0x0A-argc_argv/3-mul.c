@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main - program that prints number of arguments
- *@argc: number of arguments
- *@argv: pointer
- *Return: 0
- *
+ * main - A program that prints number of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	int i;
-	int product = 1;
-	if (argc != 3))
+	int i, product = 1;
+
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
@@ -22,7 +21,9 @@ int main(int argc, char *argv[])
 	{
 		product *= atoi(argv[i]);
 	}
-		printf("%d\n", product);
+	printf("%d\n", product);
 	}
-		return (0);	
+
+	return (0);
 }
+
