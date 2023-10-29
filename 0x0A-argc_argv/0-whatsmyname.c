@@ -3,7 +3,7 @@
  *main -main function
  *@argc: argument count
  *@argv: pointer to argc
- *return: Always 0
+ *Return: Always 0
  */
 
 int main (int argc, char* argv[])
