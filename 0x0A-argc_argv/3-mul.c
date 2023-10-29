@@ -10,7 +10,7 @@
 int main(int argc, char* argv[])
 {
 	int i;
-	int mult = 1;
+	int product = 1;
 	if (argc != 3))
 	{
 		printf("Error\n");
@@ -20,9 +20,9 @@ int main(int argc, char* argv[])
 	{
 	for (i = 1; i < argc; i++)
 	{
-		mult *= atoi(argv[i]);
+		product *= atoi(argv[i]);
 	}
-		printf("%d\n", mult);
+		printf("%d\n", product);
 	}
 		return (0);	
 }
