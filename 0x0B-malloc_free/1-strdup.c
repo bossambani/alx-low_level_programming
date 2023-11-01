@@ -8,8 +8,7 @@
 char *_strdup(char *str)
 {
 	char *a;
-	
-        if (str == NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
