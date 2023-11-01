@@ -1,14 +1,14 @@
 #include "main.h"
 #include "string.h"
-
 /**
- *_strdup - function that returns a pointer to a newly allocated space in memory
+ *_strdup -  returns a pointer to a newly allocated space in memory
  *@str: pointer
  *Return: a.
  */
-char *_strdup (char *str)
+char *_strdup(char *str)
 {
 	char *a;
+
 	if (str == NULL)
 	{
 		return (NULL);
