@@ -5,7 +5,7 @@
  *@argv: pointer to argc
  *Return: Always 0.
  */
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
 	int i;
 	
