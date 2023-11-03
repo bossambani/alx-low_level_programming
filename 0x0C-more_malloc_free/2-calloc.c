@@ -7,15 +7,18 @@
  *@size: size of elements
  *return: Always 0;
  */
-void *_calloc(unsigned int nmemb, unsigned int size) {
+void *_calloc(unsigned int nmemb, unsigned int size) 
+{
   void *ptr;
 
-  if (nmemb == 0 || size == 0) {
+  if (nmemb == 0 || size == 0) 
+  {
     return (NULL);
   }
 
   ptr = malloc(nmemb * size);
-  if (ptr == NULL) {
+  if (ptr == NULL) 
+  {
     return (NULL);
   }
 
