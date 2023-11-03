@@ -8,23 +8,24 @@
  */
 int *array_range(int min, int max)
 {
-  if (min > max)
-{
-    return NULL;
-}
+	int i, len, *ptr;
 
-  int *array = malloc((max - min + 1) * sizeof(int));
-  if (array == NULL)
-{
-    return NULL;
-}
+	if (min > max)
+	{
+		return (NULL);
+	}
 
-  // Fill the array with the values from min to max.
-  for (int i = min; i <= max; i++) 
-{
-    array[i - min] = i;
-}
+	len = (max - min) + 1;
 
-  return array;
-}
+	ptr = malloc(sizeof(int) * len);
 
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; min <= max; i++)
+	{
+		ptr[i] = min++;
+	}
+	return (ptr);
+}
