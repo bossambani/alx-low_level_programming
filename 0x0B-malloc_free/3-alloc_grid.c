@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * alloc_grid - creates matrix
- * @width: width of array
- * @height: height of array
- * Return: pointer of new grid
+ *alloc_grid - creates matrix
+ *@width: width of array
+ *@height: height of array
+ *Return: pointer of new grid
  */
 int **alloc_grid(int width, int height)
 {
