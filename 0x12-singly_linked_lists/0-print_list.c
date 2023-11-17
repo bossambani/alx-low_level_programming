@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - prints elements in a linked list
+ * print_list - A function that prints elements in a linked list
  * @h: A pointer to memory location
  * Return: number of nodes
  */
@@ -24,4 +24,3 @@ size_t print_list(const list_t *h)
 	}
 	return (count);
 }
-
