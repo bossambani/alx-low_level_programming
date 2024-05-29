@@ -1,7 +1,6 @@
 all: school
 
 school: main.o school.o
-	echo "Linking the files"
 	gcc main.o school.o -o school
 
 main.o: main.c
