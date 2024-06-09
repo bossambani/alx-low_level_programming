@@ -1,18 +1,13 @@
 #include "main.h"
 /**
- * print_numbers - Prints numbers less than 10
- * Return: 0
+ * print_most_numbers - Prints numbers less than 10 except 2 and 4
  */
 void print_most_numbers(void)
 {
-int i;
-i = 0;
-while (i < 10)
-{
-if (i != 2 && i != 4)
-_putchar(i + '0');
-i++;
-}
-_putchar('\n');
-}
+	int i;
 
+	for (i = 0; i <= 9; i++)
+		if (i != 2 && i != 4)
+			_putchar(i + '0');
+	_putchar('\n');
+}
