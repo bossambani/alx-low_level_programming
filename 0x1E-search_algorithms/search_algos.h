@@ -1,6 +1,6 @@
-#ifndef SEARCH_ALGOS.H
-#define SEARCH_ALGOS.H
+#ifndef SEARCH_ALGOS
+#define SEARCH_ALGOS
 
 int linear_search(int *array, size_t size, int value);
 
-#endif //SEARCH_ALGOS.H
+#endif
