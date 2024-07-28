@@ -7,13 +7,13 @@
  */
 int is_palindrome(char *s)
 {
+ 	int left = 0;
+        int right = strlen(s) - 1;
+
 	if (s == NULL)
 	{
 		return (0);
 	}
-
-	int left = 0;
-	int right = strlen(s) - 1;
 
 	while (left < right)
 	{
