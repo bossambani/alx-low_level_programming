@@ -7,6 +7,11 @@
  */
 int is_palindrome(char *s)
 {
+	if (s == NULL)
+	{
+		return (0);
+	}
+
 	int left = 0;
 	int right = strlen(s) - 1;
 
